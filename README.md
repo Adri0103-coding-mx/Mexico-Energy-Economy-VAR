@@ -1,16 +1,25 @@
-# Mexico’s Energy–Economy: VAR, IRF & FEVD (Replication)
+# 🇲🇽 Mexico’s Energy–Economy: VAR–IRF & FEVD
 
-Replication materials for the paper “Mexico’s energy–economy: VAR-IRF and FEVD”.
+This repository contains the code, data processing routines, and analytical results developed for the study **“Mexico’s energy–economy linkages: a VAR-based exploration with Impulse Response Functions (IRF) and Forecast Error Variance Decomposition (FEVD)”**.
 
-## Repo structure
-- `code/`: Python scripts (`01_preprocess.py`, `02_var_estimation.py`, `03_irf_fevd.py`)
-- `data/raw/`: links/instructions to download public data (WDI, INEGI, Banxico, SENER, PEMEX, IEA)
-- `data/processed/`: harmonized datasets used in the paper (if small)
-- `figures/`: output charts (GIRF, IRF, FEVD)
+The project forms part of a broader research effort on the dynamic interactions between Mexico’s energy sector and its macroeconomic variables, particularly focusing on the fiscal and structural implications of the energy transition.
 
-## Environment
-```bash
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
+---
+
+## 📘 Project Overview
+
+This study applies a **Vector Autoregression (VAR)** framework to analyze the bidirectional linkages between energy and economic variables in Mexico.
+
+The pipeline includes:
+- Stationarity testing (ADF, KPSS)
+- Differencing and standardization
+- Optimal lag selection (AIC, BIC, HQC)
+- Model fitting and diagnostics (Ljung–Box, ACF/PACF)
+- Impulse Response Function (IRF) analysis
+- Forecast Error Variance Decomposition (FEVD)
+- Visualization and interpretation of dynamic responses
+
+---
+
+## 🧩 Repository Structure
 
