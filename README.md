@@ -23,3 +23,63 @@ The pipeline includes:
 
 ## 🧩 Repository Structure
 
+---
+
+## ⚙️ Methodological Framework
+
+Figure (in the paper) summarizes the empirical workflow:
+1. **Preprocessing:** Stationarity and multicollinearity tests.
+2. **Modeling:** Estimation of the VAR(p) system.
+3. **Evaluation:** Residual diagnostics and forecast performance.
+4. **Dynamic analysis:** IRF and FEVD interpretation.
+
+Extensions to **VECM**, **SVAR**, or **Bayesian VAR** are considered as potential future developments.
+
+---
+
+## 📊 Main Variables
+The analysis includes representative indicators such as:
+- GDP at current prices  
+- Renewable installed capacity (MW)  
+- Oil rents (% of GDP)  
+- Crude oil production (bbl/day)  
+- Energy consumption per capita  
+- Energy imports/exports  
+
+All data were obtained from official sources (INEGI, SENER, World Bank, BP Statistical Review).
+
+---
+
+## 🧠 Reproducibility
+All scripts are modular and reproducible.  
+
+
+## 🧑‍💻 Main author
+**Juan Adrian Moreno Hernández**  
+Doctoral Program in Energy  
+Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME),  
+Instituto Politécnico Nacional (IPN), Mexico City.  
+
+---
+
+## 📚 Citation
+If you use this repository or its results, please cite as:
+
+> Moreno-Hernández, J. A.; De la Portilla-Reynoso, M.; Moreno-Hernández, R.C. (2025). *Explaining Mexico’s Energy–Economy Linkages under Limited
+Information: VAR-Based IRF and FEVD Evidence.* Instituto Politécnico Nacional (IPN).
+
+---
+
+## 👥 Acknowledgments
+With academic supervision by:  
+- **Dr. José Alfredo Jiménez-Bernal**, ESIME-IPN  
+- **Dr. Didier Samayoa-Ochoa**, ESIME-IPN
+- **Dra. Claudia del Carmen Gutiérrez-Torres**, ESIME-IPN
+- **Dr. Juan G. Barbosa-Saldaña**, ESIME-IPN
+
+## 📬 Contact
+📧 [jmorenoh1800@egresado.ipn.mx], [juanadrian_10@hotmail.com]  
+🌐 [https://github.com/Adri0103-coding-mx]
+
+   
+
